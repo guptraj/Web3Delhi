@@ -4,7 +4,7 @@ import ProjectCard from "../sub/ProjectCard";
 const Sponsors = () => {
   return (
     <div
-      className="flex flex-col items-center justify-center"
+      className="flex flex-col items-center justify-center z-[25] mt-[10px]"
       id="sponsors"
     >
       <h1 className="lg:text-[50px] text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10">
