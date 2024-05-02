@@ -9,6 +9,7 @@ import {
 } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
+import { GlobeDemo } from "./globedemo";
 
 const Hero = () => {
   return (
@@ -74,7 +75,10 @@ const Hero = () => {
             </motion.a>
           </div>
         </div>
+
+        {/* <GlobeDemo/> */}
       </motion.div>
+
     </div>
   );
 };

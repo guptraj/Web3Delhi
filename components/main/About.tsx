@@ -10,6 +10,7 @@ import {
 } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 
+
 const About = () => {
   return (
     <section
