@@ -1,7 +1,7 @@
 import Hero from "@/components/main/Hero";
 import About from "@/components/main/About";
 import Sponsors from "@/components/main/Sponsors";
-import { GlobeDemo } from "@/components/main/globedemo";
+import { GlobeDemo } from "@/components/main/Globedemo";
 
 
 export default function Home() {
