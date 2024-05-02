@@ -69,12 +69,7 @@ const Navbar = () => {
             {isopen && (
               <div>
                 {isopen && (
-                  <div
-                    initial={{ opacity: 0, scale: 0.6 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    exit={{ opacity: 0, scale: 0.6 }}
-                    className=" w-[250px] bg-gray-50 shadow-xl rounded-lg flex flex-col overflow-hidden absolute top-14 right-5 z-40 "
-                  >
+                  <div className=" w-[250px] bg-gray-50 shadow-xl rounded-lg flex flex-col overflow-hidden absolute top-14 right-5 z-40 ">
                     <div className="flex flex-col items-center cursor-pointer">
                       <p className="w-full justify-center px-4 py-2 flex items-center gap-3 cursor-pointer hover:bg-gray-200 transition-all duration-100 ease-in-out text-textColor text-base">
                         FAQ <FaQuestion />
