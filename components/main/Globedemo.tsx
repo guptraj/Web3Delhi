@@ -395,32 +395,20 @@ export function GlobeDemo() {
   ];
 
   return (
-    <div className="flex flex-row items-center justify-center py-20 h-screen md:h-auto relative w-full z-[25]">
-      <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-full md:h-[40rem] px-4">
-        <motion.div
-          initial={{
-            opacity: 0,
-            y: 20,
-          }}
-          animate={{
-            opacity: 1,
-            y: 0,
-          }}
-          transition={{
-            duration: 1,
-          }}
-          className="div"
-        >
+    <div className=" justify-center py-20 h-screen md:h-auto relative w-full z-[25] ">
+      <div className="max-w-7xl mx-auto w-full relative h-full md:h-[40rem] px-4 z-50 flex flex-col items-center">
+        <div className="flex flex-col items-center ">
           <h2 className="text-center text-xl md:text-4xl font-bold text-black dark:text-white">
-            We sell soap worldwide
+            Share this with your friends :)
           </h2>
-          <p className="text-center text-base md:text-lg font-normal text-neutral-700 dark:text-neutral-200 max-w-md mt-2 mx-auto">
-            This globe is interactive and customizable. Have fun with it, and
-            don&apos;t forget to share it. :)
-          </p>
-        </motion.div>
-        <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent  z-40" />
-        <div className="absolute w-full -bottom-20 h-full md:h-full z-10">
+          <div className="bg-white lg:w-[500px] lg:h-[80px] w-[300px] h-[60px] md:mt-5 mt-2  rounded-[20px] py-2 px-5 button-primary mt-[20px] text-center md:text-[25px] text-[18px] text-white cursor-pointer rounded-lg max-w-[350px] flex justify-center items-center gap-5 z-45 ">
+            <img src="/instagram.svg" alt="instagram logo" className="w-[34px] "/>
+            <img src="/discord2.svg" alt="instagram logo" className="w-[35px] "/>
+            <img src="/whatsapp.svg" alt="instagram logo" className="w-[32px] "/>
+          </div>
+        </div>
+
+        <div className="w-[85vw] -top-[10px] -bottom-20 h-[70vh] md:h-full z-10">
           <World data={sampleArcs} globeConfig={globeConfig} />;
         </div>
       </div>
