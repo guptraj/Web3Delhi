@@ -401,7 +401,7 @@ export function GlobeDemo() {
           <h2 className="text-center text-xl md:text-4xl font-bold text-black dark:text-white">
             Share this with your friends :)
           </h2>
-          <div className="bg-white lg:w-[500px] lg:h-[80px] w-[300px] h-[60px] md:mt-5 mt-2  rounded-[20px] py-2 px-5 button-primary mt-[20px] text-center md:text-[25px] text-[18px] text-white cursor-pointer rounded-lg max-w-[350px] flex justify-center items-center gap-5 z-45 ">
+          <div className="lg:w-[500px] lg:h-[80px] w-[300px] h-[60px] md:mt-5 mt-2  rounded-[20px] py-2 px-5 button-primary mt-[20px] text-center md:text-[25px] text-[18px] text-white cursor-pointer rounded-lg max-w-[350px] flex justify-center items-center gap-5 z-45 ">
             <img src="/instagram.svg" alt="instagram logo" className="w-[34px] "/>
             <img src="/discord2.svg" alt="instagram logo" className="w-[35px] "/>
             <img src="/whatsapp.svg" alt="instagram logo" className="w-[32px] "/>
