@@ -16,12 +16,9 @@ import { SparklesIcon } from "@heroicons/react/24/solid";
 export function BentoGridDemo() {
   return (
     <div className=" flex flex-col items-center" id="meetups">
-      <div className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9] mb-[20px]">
-        <SparklesIcon className="text-[#b49bff] mr-[10px] h-8 w-8" />
-        <h1 className="Welcome-text text-[18px] lg:text-[25px] mr-[10px]">
+      <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 font-bold font-['Space Grotesk'] md:mt-32 mt-24 text-[30px] md:text[45px] lg:text-[54px] mb-4">
           Meetups & Workshops
         </h1>
-      </div>
 
       <BentoGrid className="max-w-6xl mx-[20px] z-[45]">
         {items.map((item, i) => (

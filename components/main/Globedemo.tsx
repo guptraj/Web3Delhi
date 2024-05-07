@@ -395,20 +395,22 @@ export function GlobeDemo() {
   ];
 
   return (
-    <div className=" justify-center py-20 h-screen md:h-auto relative w-full z-[25] ">
+    <div className=" justify-center pb-20 h-screen md:h-auto relative w-full z-[25] ">
       <div className="max-w-7xl mx-auto w-full relative h-full md:h-[40rem] px-4 z-50 flex flex-col items-center">
         <div className="flex flex-col items-center ">
-          <h2 className="text-center text-xl md:text-4xl font-bold text-black dark:text-white">
-            Share this with your friends :)
-          </h2>
-          <div className="lg:w-[500px] lg:h-[80px] w-[300px] h-[60px] md:mt-5 mt-2  rounded-[20px] py-2 px-5 button-primary mt-[20px] text-center md:text-[25px] text-[18px] text-white cursor-pointer rounded-lg max-w-[350px] flex justify-center items-center gap-5 z-45 ">
-            <img src="/instagram.svg" alt="instagram logo" className="w-[34px] "/>
-            <img src="/discord2.svg" alt="instagram logo" className="w-[35px] "/>
-            <img src="/whatsapp.svg" alt="instagram logo" className="w-[32px] "/>
+        <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 font-bold font-['Space Grotesk'] text-[26px] md:text-[45px] lg:text-[54px]">
+          Share it with your Friends :)
+        </h2>
+          <div className="lg:w-[500px] lg:h-[80px] w-[300px] h-[60px] md:mt-5 mt-2  rounded-[20px] py-2 px-5 button-primary mt-[20px] text-center md:text-[25px] text-[18px] text-white  rounded-lg max-w-[350px] flex justify-center items-center gap-5 z-45 ">
+            <img src="/instagram.svg" alt="instagram logo" className="w-[34px] cursor-pointer "/>
+            <img src="/discord2.svg" alt="discord logo" className="w-[35px] cursor-pointer "/>
+            <img src="/whatsapp.svg" alt="whatsapp logo" className="w-[32px] cursor-pointer "/>
+            <img src="/x.svg" alt="x logo" className="w-[35px] cursor-pointer "/>
+            <img src="/telegram.svg" alt="telegram logo" className="w-[34px] cursor-pointer "/>
           </div>
         </div>
 
-        <div className="w-[85vw] -top-[10px] -bottom-20 h-[70vh] md:h-full z-10">
+        <div className="sm:w-[85vw] w-full -top-[10px] -bottom-20 h-[70vh] md:h-full z-10">
           <World data={sampleArcs} globeConfig={globeConfig} />;
         </div>
       </div>

@@ -2,9 +2,10 @@ import Hero from "@/components/main/Hero";
 import About from "@/components/main/About";
 import Sponsors from "@/components/main/Sponsors";
 import { GlobeDemo } from "@/components/main/Globedemo";
-import {BentoGridDemo} from "@/components/main/BentoGridDemo";
+import { BentoGridDemo } from "@/components/main/BentoGridDemo";
 import Prizes from "@/components/main/Prizes";
-
+import Tracks from "@/components/main/Tracks";
+import CommunityPartners from "@/components/main/CommunityPartners";
 
 export default function Home() {
   return (
@@ -12,11 +13,12 @@ export default function Home() {
       <div className="flex flex-col">
         <Hero />
         <About />
-        <BentoGridDemo/>
-        <Prizes/>
+        <BentoGridDemo />
+        <Prizes />
+        <Tracks />
         <Sponsors />
+        <CommunityPartners/>
         <GlobeDemo />
-        
       </div>
     </main>
   );

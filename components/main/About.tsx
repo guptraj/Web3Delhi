@@ -20,15 +20,9 @@ const About = () => {
     >
       {/* <SkillText /> */}
       <div className="w-full h-auto flex flex-col items-center justify-center">
-        <motion.div
-          variants={slideInFromTop}
-          className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9] "
-        >
-          <SparklesIcon className="text-[#b49bff] mr-[10px] h-8 w-8" />
-          <h1 className="Welcome-text text-[25px] mr-[10px]">
-            About Web3Delhi
-          </h1>
-        </motion.div>
+      <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 font-bold font-['Space Grotesk'] md:mt-32 mt-24 text-[30px] md:text[45px] lg:text-[54px]">
+          About Web3Delhi
+        </h1>
         <motion.div
           variants={slideInFromLeft(0.5)}
           className="lg:text-[25px] text-[18px] text-white font-medium mt-[10px] text-center mb-[15px]"
