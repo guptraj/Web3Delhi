@@ -5,7 +5,7 @@ import revealing from "@/public/revealing.png";
 import Marquee from "react-fast-marquee";
 
 export default function CommunityPartners() {
-  const tracks: any[] = [
+  const communityPartner: any[] = [
     {
       src: "/cps1.png",
       alt: "cps image",
@@ -41,17 +41,14 @@ export default function CommunityPartners() {
           Community Partners
         </h1>
         <Marquee pauseOnHover={true} speed={50} direction="right">
-          {tracks.length > 0 ? (
-            <>
-              <div className="w-full   mb-4 justify-center items-center  cursor-pointer flex">
-                {tracks.map((track) => (
-                  <img src={track.src} alt={track.alt} className="w-[300px] md:w-[500px]" />
-                ))}
-              </div>
-            </>
-          ) : (
-            <></>
-          )}
+          
+          {communityPartner && communityPartner.length > 0
+              ? communityPartner.map((member) => {
+                return (
+                    <img src={member.src} alt={member.alt} className="w-[300px] md:w-[500px]" />
+                );
+              })
+              : ""}
         </Marquee>
       </div>
     </section>
