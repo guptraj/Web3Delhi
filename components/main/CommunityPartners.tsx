@@ -45,7 +45,7 @@ export default function CommunityPartners() {
           {communityPartner && communityPartner.length > 0
               ? communityPartner.map((member) => {
                 return (
-                    <img src={member.src} alt={member.alt} className="w-[300px] md:w-[500px]" />
+                    <img key={member.alt} src={member.src} alt={member.alt} className="w-[300px] md:w-[500px]" />
                 );
               })
               : ""}
