@@ -1,7 +1,9 @@
+import image from "@/public/revealing.png"
+
 const boardMembers = [
   {
     name: "XYZ",
-    image: "/revealing.png",
+    image: image,
     role: "XYZ",
     description: "Placeholder",
     github: "",
@@ -10,7 +12,7 @@ const boardMembers = [
   },
   {
     name: "XYZ",
-    image: "/revealing.png",
+    image: image,
     role: "XYZ",
     description: "Placeholder",
     github: "",
@@ -19,7 +21,7 @@ const boardMembers = [
   },
   {
     name: "XYZ",
-    image: "/revealing.png",
+    image: image,
     role: "XYZ",
     description: "Placeholder",
     github: "",
@@ -28,7 +30,7 @@ const boardMembers = [
   },
   {
     name: "XYZ",
-    image: "/revealing.png",
+    image: image,
     role: "XYZ",
     description: "Placeholder",
     github: "",
@@ -37,7 +39,7 @@ const boardMembers = [
   },
   {
     name: "XYZ",
-    image: "/revealing.png",
+    image: image,
     role: "XYZ",
     description: "Placeholder",
     github: "",
@@ -46,7 +48,7 @@ const boardMembers = [
   },
   {
     name: "XYZ",
-    image: "/revealing.png",
+    image: image,
     role: "XYZ",
     description: "Placeholder",
     github: "",
@@ -55,13 +57,68 @@ const boardMembers = [
   },
   {
     name: "XYZ",
-    image: "/revealing.png",
+    image: image,
     role: "XYZ",
     description: "Placeholder",
     github: "",
     linkedIn: "",
     type: "organizer",
   },
+  {
+    name: "XYZ",
+    image: image,
+    role: "XYZ",
+    description: "Placeholder",
+    github: "",
+    linkedIn: "",
+    type: "organizer",
+  },
+  {
+    name: "XYZ",
+    image: image,
+    role: "XYZ",
+    description: "Placeholder",
+    github: "",
+    linkedIn: "",
+    type: "organizer",
+  },
+  {
+    name: "XYZ",
+    image: image,
+    role: "XYZ",
+    description: "Placeholder",
+    github: "",
+    linkedIn: "",
+    type: "organizer",
+  },
+  {
+    name: "XYZ",
+    image: image,
+    role: "XYZ",
+    description: "Placeholder",
+    github: "",
+    linkedIn: "",
+    type: "organizer",
+  },
+  {
+    name: "XYZ",
+    image: image,
+    role: "XYZ",
+    description: "Placeholder",
+    github: "",
+    linkedIn: "",
+    type: "organizer",
+  },
+  {
+    name: "XYZ",
+    image: image,
+    role: "XYZ",
+    description: "Placeholder",
+    github: "",
+    linkedIn: "",
+    type: "organizer",
+  },
+  
   
 ];
 export default boardMembers;
