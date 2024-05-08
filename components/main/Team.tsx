@@ -2,8 +2,15 @@
 
 import Marquee from "react-fast-marquee";
 import boardMembers from "@/constants";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
+
+interface Props {
+    name: String;
+    role: String;
+    img: StaticImageData;
+    linkedin: string;
+  }
 
 const Card = ({ name, role, img, linkedin }: Props) => {
   return (
