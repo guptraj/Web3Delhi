@@ -6,6 +6,7 @@ import { BentoGridDemo } from "@/components/main/BentoGridDemo";
 import Prizes from "@/components/main/Prizes";
 import Tracks from "@/components/main/Tracks";
 import CommunityPartners from "@/components/main/CommunityPartners";
+import Team from "@/components/main/Team";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Tracks />
         <Sponsors />
         <CommunityPartners/>
+        <Team/>
         <GlobeDemo />
       </div>
     </main>

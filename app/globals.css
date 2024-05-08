@@ -97,7 +97,40 @@
   display: none;
 }
 
+.card {
+  height: 210px;
+  aspect-ratio: 1 / 1;
 
+  border-radius: 3.5rem;
+  background: #fff;
+  position: relative;
+}
+
+.card::before,
+.card::after{
+  content: "";
+  position: absolute;
+  inset: -0.5rem;
+  z-index: -1;
+  background: conic-gradient(from var(--gradient-angle),
+      rgba(79, 117, 255, 1),
+      rgb(160, 42, 184),
+      rgb(88, 47, 185),
+      rgb(180, 61, 220)
+      );
+  border-radius: inherit;
+  animation: rotation 5s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    --gradient-angle: 0deg;
+  }
+
+  100% {
+    --gradient-angle: 360deg;
+  }
+}
 
 html {
   scroll-behavior: smooth;

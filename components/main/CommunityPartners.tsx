@@ -1,7 +1,5 @@
 "use client";
 
-import SpecialPrize from "@/components/sub/SpecialPrizeCardImage";
-import revealing from "@/public/revealing.png";
 import Marquee from "react-fast-marquee";
 
 export default function CommunityPartners() {

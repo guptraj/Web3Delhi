@@ -53,11 +53,8 @@ const Navbar = () => {
             <a href="#sponsors" className="cursor-pointer">
               Sponsors
             </a>
-            <a href="#tean" className="cursor-pointer">
+            <a href="#team" className="cursor-pointer">
               Team
-            </a>
-            <a href="https://www.namespacecomm.in/" className="cursor-pointer">
-              nameSpace
             </a>
           </div>
         </div>
